@@ -25,6 +25,14 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <a
+        href="https://auroraadv.co/?tab=wizard"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-50 flex items-center justify-center w-28 h-28 md:w-32 md:h-32 bg-gold text-navy rounded-full shadow-2xl hover:scale-105 transition-transform text-center font-bold text-xs md:text-sm p-4 leading-tight border-2 border-white/20 hover:bg-white hover:text-navy"
+      >
+        Get this website for only $999
+      </a>
     </div>
   );
 }
