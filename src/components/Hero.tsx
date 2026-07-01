@@ -4,7 +4,16 @@ import { Star } from 'lucide-react';
 export default function Hero() {
   return (
     <section id="home" className="relative rounded-2xl overflow-hidden border border-gold/20 bg-gradient-to-br from-[#0e2a5c] to-navy flex flex-col justify-center py-20 px-6 md:px-12 lg:px-16 min-h-[400px]">
-      <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(#C9A84C 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1920&q=80"
+          alt="Luxury Orlando Villa"
+          className="w-full h-full object-cover transform scale-105 opacity-80"
+          referrerPolicy="no-referrer"
+        />
+        <div className="absolute inset-0 bg-navy/75 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-navy via-navy/50 to-transparent" />
+      </div>
 
       <div className="relative z-10 w-full text-left text-white max-w-3xl">
         <motion.div
